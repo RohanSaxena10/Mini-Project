@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "746550630502",
+    "firebase_url": "https://heartbeat-data.firebaseio.com",
+    "project_id": "heartbeat-data",
+    "storage_bucket": "heartbeat-data.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746550630502:android:60881813aa9c4348",
+        "android_client_info": {
+          "package_name": "com.example.rohan.miniproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746550630502-ntqoo79qriepjjg9a5kt0no91mojdp02.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rohan.miniproject",
+            "certificate_hash": "02de60deb5f3cd33ba2e1d91db20b2cc014ef707"
+          }
+        },
+        {
+          "client_id": "746550630502-rjrdmeotg9oi0ggf49uec1hv1li0r2c1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9pxnb1K2A2P20_VJ5vbxGN1vlBKVKu-Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746550630502-3pi8pd7qvgdgj9u0c375b435ja4dhb1s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Heartbeat.HeartAttack"
+              }
+            },
+            {
+              "client_id": "746550630502-rjrdmeotg9oi0ggf49uec1hv1li0r2c1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

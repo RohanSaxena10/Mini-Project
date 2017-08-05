@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0080ff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eddy"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+    </android.support.v7.widget.Toolbar>
+
+    <com.example.rohan.miniproject.NoSwipeViewPager.NonSwipeableViewPager
+        android:id="@+id/vpPager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/sliding_tabs"
+        app:tabMode="fixed"
+        app:tabGravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabBackground="@null"
+        />
+
+
+
+</LinearLayout>

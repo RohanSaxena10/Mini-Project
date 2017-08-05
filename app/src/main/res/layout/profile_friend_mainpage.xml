@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/imgdp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/txtname"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"/>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_gravity="left"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/imgcallemergency"
+                    app:srcCompat="@drawable/emergency_call"/>
+
+
+            </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/flcontainer"></FrameLayout>
+
+
+</LinearLayout>
+</ScrollView>
